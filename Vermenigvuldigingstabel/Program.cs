@@ -23,7 +23,7 @@
 
             Console.ForegroundColor = ConsoleColor.Magenta;
 
-            for (int i = 1; i < 11; i++)
+            for (int i = 1; i <= number; i++)
             {
                 Console.Write($"\t{i}");
             }
@@ -37,7 +37,7 @@
                 Console.Write($"{i} ");
                 Console.ResetColor();
 
-                for (int y = 1; y < 11; y++)
+                for (int y = 1; y <= number; y++)
                 {
                     
                     Console.Write($"\t{i * y}");
